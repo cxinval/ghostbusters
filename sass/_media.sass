@@ -1,0 +1,225 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.container
+		max-width: 960px
+	.card-image
+		width: 70px
+		height: 70px
+	.navigation_link
+		margin-right: 10px
+		font-size: 16px
+	.navigation
+		margin-right: 20px
+	.search-input
+		margin-left: 20px
+	.header
+		height: 90px
+		padding-left: 20px
+	.sing-in
+		padding-left: 20px
+		padding-right: 20px
+	.line::after
+		margin-left: 20px
+	.button_grop
+		display: flex		
+								
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.container
+		max-width: 47.5rem
+	.navigation
+		display: none
+	.search-input
+		margin-right: auto	
+	.film_titlle
+		font-size: 24px
+		line-height: 1.4
+	.film_subtitle
+		margin-bottom: 20px
+	.film_description, .about_film
+		margin-bottom: 30px
+	.about_text_bold
+		display: block
+		margin-bottom: 10px	
+	.card-image
+		width: 100px
+		height: 100px
+	.card
+		flex-basis: 50%
+	.news_card
+		flex-basis: 48%
+		margin-bottom: 20px		
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.no-scroll
+		overflow: hidden
+	.container
+		max-width: 560px
+	.film
+		padding-top: 50px
+		padding-bottom: 60px	
+	.film_wrapper
+		flex-wrap: wrap
+	.film_text
+		order: -1
+		margin-bottom: 30px
+	.cast
+		padding-top: 50px
+		padding-bottom: 70px
+	.news
+		padding-top: 50px
+		padding-bottom: 70px
+	.header
+		height: 80px
+	.mobile_buttons
+		display: block
+		margin-left: auto
+	.line
+		display: none	
+	.header
+		padding-left: 2.5%
+		padding-right: 2.5%	
+	.m-menu
+		display: none
+		flex-direction: column
+		align-items: center
+		justify-content: space-around
+		position: fixed
+		left: 0
+		top: 68px
+		bottom: 0
+		right: 0
+		background: #5671f6
+		height: calc( 100% - 68px )
+	.m-menu.active
+		display: flex	
+	
+	.button_grop
+		height: auto
+		flex-direction: column
+		border: none
+	.search-input
+		margin: 0
+		width: 260px
+		height: 50px
+		border-radius: 5px
+		border: none
+		background-image: none
+	.navigation
+		display: flex
+		margin: 0
+		flex-direction: column
+		justify-content: center
+		align-items: center
+	.navigation_link
+		color: #ffffff
+		margin-bottom: 18px
+		margin-right: 0
+	.navigation_link:last-child
+		margin-bottom: 0
+	.sing-in
+		background-color: transparent
+		color: #ffffff
+		border: none
+		margin-bottom: 30px
+	.news_card
+		max-width: 90%
+	.button_next
+		display: block	
+			
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px)
+	.container
+		width: 95%
+	.film_trailer, .poser
+		width: 100%
+	.film_trailer
+		margin-bottom: 30px		
+	.film_text
+		order: 1
+		margin-bottom: 0
+	.film_titlle
+		font-size: 20px
+		line-height: 23px
+		margin-bottom: 12px
+	.film_subtitle
+		font-size: 14px
+		line-height: 16px
+		margin-bottom: 26px
+	.film_description
+		font-size: 14px
+		line-height: 150%
+		margin-bottom: 40px
+	.about_film
+		flex-wrap: wrap	
+		flex-direction: column
+		margin-bottom: 40px
+	.about_text_bold
+		display: inline-block
+	.about_text
+		margin-bottom: 16px
+	.card
+		flex-basis: 100%
+		margin-bottom: 20px	
+	.card-image
+		width: 60px
+		height: 60px
+	.tabs
+		margin-bottom: 45px
+	.cast
+		padding-bottom: 50px
+	.news_card
+		flex-basis: 100%
+					
+					
+
+
+		
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
